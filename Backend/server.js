@@ -5,8 +5,6 @@ import bcrypt from 'bcryptjs'; // para encriptar contraseñas
 
 const app = express(); // crea una instancia de express
 const PORT = 6543;
- // para encriptar contraseñas
-//const API = http://localhost:6543
 
 app.use(express.json());
 app.use(cors());
