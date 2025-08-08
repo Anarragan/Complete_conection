@@ -85,9 +85,19 @@ ejecuta el cliente con:
 ```
 npm run dev
 ```
-🔑 Funcionalidades
-✅ Página de bienvenida (home.js)
-✅ Registro de usuarios (register.js) → envía datos al backend y los guarda en la BD
-✅ Login de usuarios (login.js) → valida credenciales con bcrypt
-✅ Dashboard básico (dashboard.js)
-✅ Comunicación segura entre frontend y backend con CORS
+## 🔑 Funcionalidades
+
+- ✅ **Página de bienvenida** (`home.js`)  
+  Muestra un mensaje inicial al usuario al acceder a la aplicación.
+
+- ✅ **Registro de usuarios** (`register.js`)  
+  Permite registrar nuevos usuarios, enviando los datos al backend para su almacenamiento seguro en la base de datos.
+
+- ✅ **Login de usuarios** (`login.js`)  
+  Valida las credenciales ingresadas utilizando **bcrypt** para el cifrado y verificación de contraseñas.
+
+- ✅ **Dashboard básico** (`dashboard.js`)  
+  Muestra una interfaz sencilla posterior al inicio de sesión.
+
+- ✅ **Comunicación segura** entre **frontend** y **backend** mediante **CORS**  
+  Garantiza el intercambio de datos evitando bloqueos por políticas de origen cruzado.
