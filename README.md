@@ -19,6 +19,7 @@ Incluye un flujo simple de **registro** y **login** que conecta con una base de 
 
 ## 📂 Estructura del Proyecto
 
+```
 📦 complete_conection
 ┣ 📂 backend
 ┃ ┣ 📜 server.js
@@ -40,6 +41,7 @@ Incluye un flujo simple de **registro** y **login** que conecta con una base de 
 ┃ ┃ ┣ 📜 main.js           
 ┃ ┣ 📜 style.css     
 ┃ ┗ 📜 index.html
+```
 
 ## Clonar el repositorio
 
